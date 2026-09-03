@@ -1,4 +1,5 @@
 import type { CertificadoDetalleDTO } from "../types";
+import { formatEstadoTramite } from "../estado";
 import { Section, Field, Empty, Table } from "./ui";
 
 export function ResultView({ data }: { data: CertificadoDetalleDTO }) {
@@ -20,9 +21,12 @@ export function ResultView({ data }: { data: CertificadoDetalleDTO }) {
               <Field label="Número de trámite" value={c.numeroTramite} />
               <Field label="Fecha de solicitud" value={c.fechaSolicitud} />
               <Field label="Fecha de vigencia" value={c.fechaVigencia} />
-              <Field label="Estado del trámite" value={c.estadoTramite} />
               <Field
-                label="Extraña de jurisdicción"
+                label="Estado del trámite"
+                value={formatEstadoTramite(c.estadoTramite)}
+              />
+              <Field
+                label="Extraña jurisdicción"
                 value={c.extranaJurisdiccion}
               />
             </div>
@@ -103,6 +107,7 @@ export function ResultView({ data }: { data: CertificadoDetalleDTO }) {
                   <Field
                     label="Descripción"
                     value={c.datoNotificacion.descripcionNotificacion}
+                    wide
                   />
                 </div>
               </div>

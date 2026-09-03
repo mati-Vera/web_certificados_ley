@@ -1,0 +1,62 @@
+{
+  "certificado": {
+    "numeroCertificado": "2461058",
+    "numeroTramite": "195976",
+    "fechaSolicitud": "2023-10-04",
+    "fechaVigencia": "2023-10-18",
+    "estadoTramite": "FIN",
+    "motivos": ["COMPRA VENTA"],
+    "motivosCargado": [
+      {
+        "motivo": "COMPRA VENTA",
+        "exento": "NO",
+        "afectar": "TOT",
+        "numeroPlano": "17131",
+        "supPlano": "200",
+        "supTitulo": "200",
+        "pasillo": "NO"
+      }
+    ],
+    "escribanoSolicitante": {
+      "nombreEscribano": "ZELMIRA",
+      "apellidoEscribano": "CAIRO",
+      "matriculaEscribano": "280",
+      "documento": "17146171",
+      "circunscripcion": "003",
+      "numeroRegistro": "280"
+    },
+    "extranaJurisdiccion": "NO",
+    "datoNotificacion": {
+      "autorizante": "FERNANDEZ MARIA MARCELA",
+      "descripcionNotificacion": "CERTIFICO: Que el inmueble detallado se encuentra inscripto al asiento N°11855, Fs. 409 del T° 60 Impar de Junín, continuando en matrícula SIRC N° 900526055 (la que se encuentra disponible en el portal web de la D.R.P.) y no reconoce gravámenes en tomo.-\r\n\r\nSe informa que DI CARLO NESTOR DANIEL no se encuentra/n inhibido/s para disponer de sus bienes dentro de la 1ra, 3ra y 4ta Circunscripción Judicial.- \r\n\r\nCONSTE: Que según nuestros registros el apellido del titular registral es DI CARLOS y no como se consignó.-\r\n\r\nIMPORTANTE: la matrícula SIRC es una continuación de la inscripción antecedente (tomo o matrícula). En consecuencia se conformará con el antecedente respectivo.-\r\n\r\nCONSTE: Que los plazos previstos en los arts. 9 inc. b, 18 inc. a, 37 inc. a y b, 24 o 5 de la Ley 17.801, 59, 130, 131 y 135 de la Ley 8.236 fueron suspendidos desde el día 16 de marzo hasta el día 17 de mayo del 2020 inclusive, debido a lo dispuesto por el Gobierno Nacional (Ley 27.541, Decretos N° 260/20; N° 297/20 y cc.), el Gobierno Provincial (Decretos n° 359/20; n° 384/20 y cc.) y la Suprema Corte de Justicia (Acordadas N° 29.500. 29.501, 29.502, 29.508, 29.511, 29.514, 29.517, 29.522 y cc.).- \r\n\r\nDe conformidad con el art. 150 de la Ley 9003 se hace saber a Ud. que en contra del presente podrá interponer Recurso de Revocatoria ante el mismo órgano que dictó el acto (art. 130 Ley 8236) o Recurso Jerárquico ante el Órgano Superior (art. 131), ambos dentro del plazo  de 15 días hábiles a contar desde el día siguiente a la notificación ficta del acto. La notificación ficta opera el día siguiente hábil a aquél en que se publicita en lista el acto (art. 129 Ley 8236).-\r\n\r\nEl presente certificado N° 2461058 para VENTA se expide en Mendoza a 04 de octubre de 2023.-"
+    }
+  },
+  "inmueble": {
+    "circunscripcion": "3",
+    "tipoInmueble": "COMÚN",
+    "procedencia": "PARTE inscripción 11855 nro 60, foja 409 del tomo 'IMP' de JUNIN. ",
+    "descripcionInmueble": "Departamento: JUNIN barrio B.JARDIN FERROVIARIO lote 4 manzana W. S/T 200.0. S/P 200.0. plano nro 7382. Límites y medidas perimetrales: VER DOMINIO DE PROCEDENCIA.-.",
+    "dominioMatricula": {
+      "matriculaSIRC": "900526055",
+      "departamento": "JUNIN",
+      "tieneBIS": "NO"
+    }
+  },
+  "noTitular": [],
+  "titulares": [
+    {
+      "tipoPersona": "PF",
+      "tipoDoc": "Documento Nacional de Identidad",
+      "documento": "26947776",
+      "nombreCompleto": "DI CARLO NESTOR DANIEL",
+      "personaFallecida": "NO",
+      "porcentaje": "100",
+      "columna": "A",
+      "asiento": "1",
+      "incluido": "SI",
+      "verificaInhibicion": "SI",
+      "transferencia": "0",
+      "cargaManual": "NO"
+    }
+  ]
+}

@@ -2,5 +2,7 @@
   { "numero": "3198665", "etiqueta": "Vigente — propiedad horizontal (SIRC), 1 titular PJ" },
   { "numero": "3255435", "etiqueta": "Finalizado — común, titular con inhibiciones" },
   { "numero": "3255719", "etiqueta": "Finalizado — múltiples motivos, con no titular" },
-  { "numero": "3255927", "etiqueta": "Finalizado — común, cotitularidad PF/PJ" }
+  { "numero": "3255927", "etiqueta": "Finalizado — común, cotitularidad PF/PJ" },
+  { "numero": "2461058", "etiqueta": "Finalizado — tomo/foja, procedencia parcial, nota de corrección" },
+  { "numero": "3257120", "etiqueta": "En trámite (sin notificación aún) — dominio por tomo/foja, afectación parcial" }
 ]

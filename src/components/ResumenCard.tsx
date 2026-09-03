@@ -1,4 +1,5 @@
 import type { CertificadoDetalleDTO } from "../types";
+import { formatEstadoTramite } from "../estado";
 import { Field } from "./ui";
 
 export function ResumenCard({ data }: { data: CertificadoDetalleDTO }) {
@@ -20,7 +21,9 @@ export function ResumenCard({ data }: { data: CertificadoDetalleDTO }) {
     <div className="resumen">
       <div className="resumen-header">
         <h2>Certificado {c?.numeroCertificado}</h2>
-        {c?.estadoTramite && <span className="badge">{c.estadoTramite}</span>}
+        {c?.estadoTramite && (
+          <span className="badge">{formatEstadoTramite(c.estadoTramite)}</span>
+        )}
       </div>
       <div className="field-grid">
         <Field label="Número de trámite" value={c?.numeroTramite} />

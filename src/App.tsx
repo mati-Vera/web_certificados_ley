@@ -43,6 +43,13 @@ function App() {
     buscar(n);
   }
 
+  function limpiar() {
+    setNumero("");
+    setData(null);
+    setError(null);
+    setDetalleAbierto(false);
+  }
+
   return (
     <div className="app">
       <header>
@@ -66,6 +73,11 @@ function App() {
           <button type="submit" disabled={loading}>
             {loading ? "Buscando…" : "Buscar"}
           </button>
+          {(data || error) && (
+            <button type="button" className="btn-secondary" onClick={limpiar}>
+              Limpiar
+            </button>
+          )}
         </div>
 
         {ejemplos.length > 0 && (
@@ -93,10 +105,11 @@ function App() {
           <ResumenCard data={data} />
           <button
             type="button"
-            className="toggle-detalle"
+            className={detalleAbierto ? "toggle-detalle is-open" : "toggle-detalle"}
             onClick={() => setDetalleAbierto((v) => !v)}
           >
-            {detalleAbierto ? "Ocultar detalles ▲" : "Mostrar más detalles ▼"}
+            {detalleAbierto ? "Ocultar detalles" : "Mostrar más detalles"}
+            <span className="chevron" aria-hidden="true" />
           </button>
           {detalleAbierto && <ResultView data={data} />}
         </>

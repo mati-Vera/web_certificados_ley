@@ -9,10 +9,18 @@ export function Section({ title, children }: { title: string; children: ReactNod
   );
 }
 
-export function Field({ label, value }: { label: string; value?: ReactNode }) {
+export function Field({
+  label,
+  value,
+  wide,
+}: {
+  label: string;
+  value?: ReactNode;
+  wide?: boolean;
+}) {
   if (value === undefined || value === null || value === "") return null;
   return (
-    <div className="field">
+    <div className={wide ? "field field-wide" : "field"}>
       <span className="field-label">{label}</span>
       <span className="field-value">{value}</span>
     </div>
@@ -32,25 +40,17 @@ export function Table<T extends object>({
 }) {
   if (rows.length === 0) return null;
   return (
-    <div className="table-wrap">
-      <table>
-        <thead>
-          <tr>
+    <div className="card-list">
+      {rows.map((row, i) => (
+        <div className="row-card" key={i}>
+          {rows.length > 1 && <span className="row-card-index">#{i + 1}</span>}
+          <div className="field-grid">
             {columns.map((c) => (
-              <th key={c.header}>{c.header}</th>
+              <Field key={c.header} label={c.header} value={c.render(row)} />
             ))}
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((row, i) => (
-            <tr key={i}>
-              {columns.map((c) => (
-                <td key={c.header}>{c.render(row) ?? "—"}</td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

@@ -1,0 +1,57 @@
+{
+  "certificado": {
+    "numeroCertificado": "3257120",
+    "numeroTramite": "302839",
+    "fechaSolicitud": "2026-07-28",
+    "fechaVigencia": "2026-08-11",
+    "estadoTramite": "CONT",
+    "motivos": ["DONACION"],
+    "motivosCargado": [
+      {
+        "motivo": "DONACION",
+        "exento": "NO",
+        "afectar": "PAR",
+        "numeroPlano": "17929",
+        "supPlano": "728.81",
+        "supTitulo": "728.55",
+        "pasillo": "NO",
+        "fraccion": "1"
+      }
+    ],
+    "escribanoSolicitante": {
+      "nombreEscribano": "MARIA JIMENA",
+      "apellidoEscribano": "GARCIA",
+      "matriculaEscribano": "607",
+      "documento": "25693770",
+      "circunscripcion": "003",
+      "numeroRegistro": "607"
+    },
+    "extranaJurisdiccion": "NO"
+  },
+  "inmueble": {
+    "circunscripcion": "3",
+    "tipoInmueble": "COMÚN",
+    "dominioTomo": {
+      "asiento": "14640",
+      "tomo": "57",
+      "foja": "449",
+      "codigo": "PAR",
+      "departamento": "JUNIN"
+    }
+  },
+  "noTitular": [],
+  "titulares": [
+    {
+      "tipoPersona": "PF",
+      "tipoDoc": "Documento Nacional de Identidad",
+      "documento": "06879753",
+      "nombreCompleto": "GIORGENTE ROBERTO DIONISIO",
+      "personaFallecida": "NO",
+      "porcentaje": "100",
+      "columna": "A",
+      "incluido": "SI",
+      "verificaInhibicion": "SI",
+      "cargaManual": "SI"
+    }
+  ]
+}

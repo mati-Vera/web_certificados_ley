@@ -8,8 +8,9 @@
   --accent-bg: rgba(42, 92, 219, 0.08);
   --danger: #b3261e;
   --danger-bg: rgba(179, 38, 30, 0.08);
+  --shadow: 0 1px 2px rgba(20, 22, 26, 0.05), 0 1px 6px rgba(20, 22, 26, 0.04);
 
-  font: 15px/1.5 system-ui, "Segoe UI", Roboto, sans-serif;
+  font: 16px/1.6 system-ui, "Segoe UI", Roboto, sans-serif;
   color-scheme: light dark;
   color: var(--text);
   background: var(--bg);
@@ -26,6 +27,7 @@
     --accent-bg: rgba(126, 162, 247, 0.12);
     --danger: #f28b82;
     --danger-bg: rgba(242, 139, 130, 0.12);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 6px rgba(0, 0, 0, 0.16);
   }
 }
 

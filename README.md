@@ -30,9 +30,10 @@ completo, tablas de titulares/no titulares).
 3. Los campos que un certificado real no tenga cargados simplemente no aparecen en el JSON
    (`@JsonInclude(NON_NULL)` en el backend) — no hace falta poner `null` explícito.
 
-Ya hay 4 ejemplos reales cargados (`3198665`, `3255435`, `3255719`, `3255927`), tomados de
-respuestas reales de la API para cubrir distintos casos: propiedad horizontal vs. común, titular
-con inhibiciones, múltiples motivos, no titular y cotitularidad PF/PJ.
+Ya hay 6 ejemplos reales cargados (`3198665`, `3255435`, `3255719`, `3255927`, `2461058`,
+`3257120`), tomados de respuestas reales de la API para cubrir distintos casos: propiedad
+horizontal vs. común, titular con inhibiciones, múltiples motivos, no titular, cotitularidad PF/PJ,
+dominio por tomo/foja y un trámite en curso sin notificación todavía cargada.
 
 ## Nota sobre los datos
 

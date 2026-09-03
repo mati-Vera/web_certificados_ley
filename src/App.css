@@ -1,17 +1,21 @@
 .app {
   max-width: 960px;
   margin: 0 auto;
-  padding: 32px 20px 64px;
+  padding: 40px 20px 64px;
 }
 
 header h1 {
-  font-size: 24px;
-  margin: 0 0 4px;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 6px;
 }
 
 header .subtitle {
   color: var(--text-muted);
-  margin: 0 0 24px;
+  font-size: 15px;
+  max-width: 62ch;
+  margin: 0 0 28px;
 }
 
 .search {
@@ -68,7 +72,8 @@ header .subtitle {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--surface);
-  padding: 16px 20px;
+  box-shadow: var(--shadow);
+  padding: 18px 22px;
 }
 
 .resumen-header {
@@ -79,7 +84,8 @@ header .subtitle {
 }
 
 .resumen-header h2 {
-  font-size: 18px;
+  font-size: 21px;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -93,11 +99,33 @@ header .subtitle {
 }
 
 .toggle-detalle {
-  display: block;
-  margin: 12px auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 14px auto 18px;
   background: transparent;
-  color: var(--accent);
+  color: var(--text-muted);
   border: 1px solid var(--border);
+  transition: color 120ms ease, border-color 120ms ease;
+}
+
+.toggle-detalle:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.toggle-detalle .chevron {
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 150ms ease;
+}
+
+.toggle-detalle.is-open .chevron {
+  transform: rotate(-135deg);
 }
 
 button {
@@ -116,6 +144,18 @@ button:disabled {
   cursor: default;
 }
 
+.btn-secondary {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  transition: color 120ms ease, border-color 120ms ease;
+}
+
+.btn-secondary:hover {
+  color: var(--text);
+  border-color: var(--text-muted);
+}
+
 .error {
   padding: 12px 14px;
   border-radius: 6px;
@@ -127,54 +167,70 @@ button:disabled {
 .result {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
 }
 
 .section {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--surface);
-  padding: 16px 20px;
+  box-shadow: var(--shadow);
+  padding: 18px 22px;
 }
 
 .section h2 {
-  font-size: 16px;
-  margin: 0 0 12px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 14px;
 }
 
 .subsection {
-  margin-top: 16px;
-  padding-top: 16px;
-  border-top: 1px solid var(--border);
+  margin-top: 18px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
 }
 
 .subsection h3 {
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--text-muted);
-  margin: 0 0 10px;
+  color: var(--text);
+  margin: 0 0 12px;
 }
 
 .field-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px 20px;
+  gap: 12px 24px;
 }
 
 .field {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 3px;
+}
+
+.field-wide {
+  grid-column: 1 / -1;
+}
+
+.field-wide .field-value {
+  white-space: pre-wrap;
 }
 
 .field-label {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-muted);
 }
 
 .field-value {
-  font-size: 14px;
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: 1.45;
 }
 
 .empty {
@@ -183,23 +239,28 @@ button:disabled {
   margin: 0;
 }
 
-.table-wrap {
-  overflow-x: auto;
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-table {
-  font-size: 13px;
+.row-card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  padding: 14px 16px;
+  transition: border-color 120ms ease;
 }
 
-th,
-td {
-  text-align: left;
-  padding: 8px 10px;
-  border-bottom: 1px solid var(--border);
-  white-space: nowrap;
+.row-card:hover {
+  border-color: var(--text-muted);
 }
 
-th {
+.row-card-index {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
   color: var(--text-muted);
-  font-weight: 600;
+  margin-bottom: 10px;
 }
