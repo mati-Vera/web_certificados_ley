@@ -1,0 +1,5 @@
+[
+  { "numero": "123456", "etiqueta": "Vigente — matrícula SIRC" },
+  { "numero": "789012", "etiqueta": "Vencido — tomo/foja, con no titular" },
+  { "numero": "555555", "etiqueta": "Datos mínimos (varios campos sin cargar)" }
+]

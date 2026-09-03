@@ -1,0 +1,68 @@
+{
+  "certificado": {
+    "numeroCertificado": "123456",
+    "numeroTramite": "789/2026",
+    "fechaSolicitud": "2026-08-01",
+    "fechaVigencia": "2026-08-16",
+    "estadoTramite": "VIGENTE",
+    "motivos": ["VENTA - FRACC. 1, SUP. 486,66 M2 (PL. 58850)"],
+    "motivosCargado": [
+      {
+        "motivo": "VENTA - FRACC. 1, SUP. 486,66 M2 (PL. 58850)",
+        "exento": "N",
+        "afectar": "TOTAL",
+        "numeroPlano": "58850",
+        "supPlano": "486.66",
+        "supTitulo": "486.66",
+        "observaciones": "Sin observaciones"
+      }
+    ],
+    "escribanoSolicitante": {
+      "nombreEscribano": "Juan",
+      "apellidoEscribano": "Perez",
+      "matriculaEscribano": "1234",
+      "documento": "20123456",
+      "circunscripcion": "1",
+      "numeroRegistro": "45"
+    },
+    "extranaJurisdiccion": "N",
+    "datoNotificacion": {
+      "autorizante": "M. Gonzalez",
+      "descripcionNotificacion": "Notificado por sistema"
+    }
+  },
+  "inmueble": {
+    "circunscripcion": "1",
+    "tipoInmueble": "URBANO",
+    "procedencia": "Loteo XYZ",
+    "descripcionInmueble": "Lote 12, Manzana 4",
+    "dominioMatricula": {
+      "matriculaSIRC": "123456",
+      "departamento": "CAPITAL",
+      "tieneBIS": "N"
+    }
+  },
+  "titulares": [
+    {
+      "tipoPersona": "FISICA",
+      "tipoDoc": "DNI",
+      "documento": "20123456",
+      "nombreCompleto": "Perez Juan",
+      "porcentaje": "50",
+      "columna": "A",
+      "asiento": "1",
+      "incluido": "S",
+      "verificaInhibicion": "S"
+    },
+    {
+      "tipoPersona": "FISICA",
+      "tipoDoc": "CUIT",
+      "documento": "27234567",
+      "nombreCompleto": "Gomez Maria",
+      "porcentaje": "50",
+      "columna": "A",
+      "asiento": "2"
+    }
+  ],
+  "noTitular": []
+}
