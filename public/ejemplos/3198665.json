@@ -1,0 +1,64 @@
+{
+  "certificado": {
+    "numeroCertificado": "3198665",
+    "numeroTramite": "296848",
+    "fechaSolicitud": "2026-05-22",
+    "fechaVigencia": "2026-06-05",
+    "estadoTramite": "MCER",
+    "motivos": ["COMPRA VENTA"],
+    "motivosCargado": [
+      {
+        "motivo": "COMPRA VENTA",
+        "exento": "NO",
+        "afectar": "TOT",
+        "unidad": "131",
+        "piso": "3",
+        "designacion": "3-1",
+        "pasillo": "NO",
+        "supCubComun": "48.82",
+        "supCubPropia": "99.7",
+        "supCubTotal": "148.52"
+      }
+    ],
+    "escribanoSolicitante": {
+      "nombreEscribano": "MARIA DEL CARMEN",
+      "apellidoEscribano": "HERNANDEZ",
+      "matriculaEscribano": "663",
+      "documento": "21370334",
+      "circunscripcion": "001"
+    },
+    "extranaJurisdiccion": "NO",
+    "datoNotificacion": {
+      "autorizante": "SUAREZ CARINA INES",
+      "descripcionNotificacion": "Certifico: Se remite copia de la Matrícula N° 369137 de Folio Real, donde se detalla dominio y estado jurídico del inmueble y que a nombre de TRIUNFO COOPERATIVA DE SEGUROS LIMITADA, NO se registra inhibición para disponer de sus bienes dentro de la 1era, 3ra, y 4ta Circunscripción Judicial.-\r\n\r\nSe hace constar que el presente inmueble actualmente se encuentra inscripto en la matrícula SIRC N° 500369137.-\r\n\r\nIMPORTANTE: la matrícula SIRC, de la que se adjunta copia, es una continuación de la inscripción antecedente (tomo o matrícula). En consecuencia, en todos los casos, la situación jurídica del inmueble se conformará con el antecedente respectivo.- \r\n\r\nDe conformidad con el art. 150 de la ley 9003 se hace saber a Ud. que en contra del presente  podrá interponer Recurso de Revocatoria ante el mismo órgano que dictó el acto, (art. 130 ley 8236) o recurso Jerárquico ante el órgano superior (art. 131), ambos  dentro del plazo de 15 días hábiles a contar desde el día siguiente a la notificación ficta del acto. La notificación ficta opera el día siguiente hábil a aquél en que se publicita en lista el acto (art. 129 ley 8236). \r\n\r\nEl presente certificado Nº 3198665  para COMPRA VENTA,   se expide en Mendoza a 22 de Mayo de 2026. A.CH.-"
+    }
+  },
+  "inmueble": {
+    "circunscripcion": "1",
+    "tipoInmueble": "PROPIEDAD HORIZONTAL",
+    "procedencia": "TOTALIDAD mat. nro 369137. ",
+    "descripcionInmueble": "Departamento: GODOY CRUZ. Domicilio: LINIERS SANTIAGO DE número 47. Límites y medidas perimetrales: VER DOMINIO DE PROCEDENCIA - UNIDAD 131 DESIGNACION 3-1 PISO TERCERO DESTINO: VIVIENDA EDIFICIO TORRE AGUSTINA SUR REG. 11 T° 211 P.H..",
+    "dominioMatricula": {
+      "matriculaSIRC": "500369137",
+      "departamento": "GODOY CRUZ",
+      "tieneBIS": "NO"
+    }
+  },
+  "noTitular": [],
+  "titulares": [
+    {
+      "tipoPersona": "PJ",
+      "tipoDoc": "CUIT",
+      "documento": "30500065776",
+      "nombreCompleto": "TRIUNFO COOPERATIVA DE SEGUROS LIMITADA ",
+      "personaFallecida": "NO",
+      "porcentaje": "100",
+      "columna": "A",
+      "asiento": "1",
+      "incluido": "SI",
+      "verificaInhibicion": "SI",
+      "transferencia": "100",
+      "cargaManual": "NO"
+    }
+  ]
+}

@@ -13,12 +13,18 @@ export function ResultView({ data }: { data: CertificadoDetalleDTO }) {
         {c ? (
           <>
             <div className="field-grid">
-              <Field label="Número de certificado" value={c.numeroCertificado} />
+              <Field
+                label="Número de certificado"
+                value={c.numeroCertificado}
+              />
               <Field label="Número de trámite" value={c.numeroTramite} />
               <Field label="Fecha de solicitud" value={c.fechaSolicitud} />
               <Field label="Fecha de vigencia" value={c.fechaVigencia} />
               <Field label="Estado del trámite" value={c.estadoTramite} />
-              <Field label="Fuera de jurisdicción" value={c.extranaJurisdiccion} />
+              <Field
+                label="Extraña de jurisdicción"
+                value={c.extranaJurisdiccion}
+              />
             </div>
 
             {c.motivos && c.motivos.length > 0 && (
@@ -59,14 +65,29 @@ export function ResultView({ data }: { data: CertificadoDetalleDTO }) {
                 <div className="field-grid">
                   <Field
                     label="Nombre"
-                    value={[c.escribanoSolicitante.nombreEscribano, c.escribanoSolicitante.apellidoEscribano]
+                    value={[
+                      c.escribanoSolicitante.nombreEscribano,
+                      c.escribanoSolicitante.apellidoEscribano,
+                    ]
                       .filter(Boolean)
                       .join(" ")}
                   />
-                  <Field label="Matrícula" value={c.escribanoSolicitante.matriculaEscribano} />
-                  <Field label="Documento" value={c.escribanoSolicitante.documento} />
-                  <Field label="Circunscripción" value={c.escribanoSolicitante.circunscripcion} />
-                  <Field label="Número de registro" value={c.escribanoSolicitante.numeroRegistro} />
+                  <Field
+                    label="Matrícula"
+                    value={c.escribanoSolicitante.matriculaEscribano}
+                  />
+                  <Field
+                    label="Documento"
+                    value={c.escribanoSolicitante.documento}
+                  />
+                  <Field
+                    label="Circunscripción"
+                    value={c.escribanoSolicitante.circunscripcion}
+                  />
+                  <Field
+                    label="Número de registro"
+                    value={c.escribanoSolicitante.numeroRegistro}
+                  />
                 </div>
               </div>
             )}
@@ -75,8 +96,14 @@ export function ResultView({ data }: { data: CertificadoDetalleDTO }) {
               <div className="subsection">
                 <h3>Notificación interna</h3>
                 <div className="field-grid">
-                  <Field label="Autorizante" value={c.datoNotificacion.autorizante} />
-                  <Field label="Descripción" value={c.datoNotificacion.descripcionNotificacion} />
+                  <Field
+                    label="Autorizante"
+                    value={c.datoNotificacion.autorizante}
+                  />
+                  <Field
+                    label="Descripción"
+                    value={c.datoNotificacion.descripcionNotificacion}
+                  />
                 </div>
               </div>
             )}
@@ -100,9 +127,18 @@ export function ResultView({ data }: { data: CertificadoDetalleDTO }) {
               <div className="subsection">
                 <h3>Dominio por matrícula SIRC</h3>
                 <div className="field-grid">
-                  <Field label="Matrícula SIRC" value={inmueble.dominioMatricula.matriculaSIRC} />
-                  <Field label="Departamento" value={inmueble.dominioMatricula.departamento} />
-                  <Field label="Tiene BIS" value={inmueble.dominioMatricula.tieneBIS} />
+                  <Field
+                    label="Matrícula SIRC"
+                    value={inmueble.dominioMatricula.matriculaSIRC}
+                  />
+                  <Field
+                    label="Departamento"
+                    value={inmueble.dominioMatricula.departamento}
+                  />
+                  <Field
+                    label="Tiene BIS"
+                    value={inmueble.dominioMatricula.tieneBIS}
+                  />
                 </div>
               </div>
             )}
@@ -115,7 +151,10 @@ export function ResultView({ data }: { data: CertificadoDetalleDTO }) {
                   <Field label="Tomo" value={inmueble.dominioTomo.tomo} />
                   <Field label="Foja" value={inmueble.dominioTomo.foja} />
                   <Field label="Código" value={inmueble.dominioTomo.codigo} />
-                  <Field label="Departamento" value={inmueble.dominioTomo.departamento} />
+                  <Field
+                    label="Departamento"
+                    value={inmueble.dominioTomo.departamento}
+                  />
                 </div>
               </div>
             )}
@@ -157,7 +196,10 @@ export function ResultView({ data }: { data: CertificadoDetalleDTO }) {
             ]}
           />
         ) : (
-          <Empty>Es normal que este bloque venga vacío: no todos los trámites lo cargan.</Empty>
+          <Empty>
+            Es normal que este bloque venga vacío: no todos los trámites lo
+            cargan.
+          </Empty>
         )}
       </Section>
     </div>

@@ -1,0 +1,99 @@
+{
+  "certificado": {
+    "numeroCertificado": "3255719",
+    "numeroTramite": "302652",
+    "fechaSolicitud": "2026-07-27",
+    "fechaVigencia": "2026-08-10",
+    "estadoTramite": "FIN",
+    "motivos": [
+      "COMPRA VENTA",
+      "DESAFECTACIÓN DE VIVIENDA",
+      "DONACION",
+      "CONSTITUCION DE USUFRUCTO"
+    ],
+    "motivosCargado": [
+      {
+        "motivo": "COMPRA VENTA",
+        "exento": "NO",
+        "afectar": "TOT",
+        "numeroPlano": "04-98416-7",
+        "supPlano": "100.65",
+        "supTitulo": "100.65",
+        "pasillo": "NO"
+      },
+      {
+        "motivo": "DESAFECTACIÓN DE VIVIENDA",
+        "exento": "NO",
+        "afectar": "TOT",
+        "numeroPlano": "04-98416-7",
+        "supPlano": "100.65",
+        "supTitulo": "100.65",
+        "pasillo": "NO"
+      },
+      {
+        "motivo": "DONACION",
+        "exento": "NO",
+        "afectar": "TOT",
+        "numeroPlano": "04-98416-7",
+        "supPlano": "100.65",
+        "supTitulo": "100.65",
+        "pasillo": "NO"
+      },
+      {
+        "motivo": "CONSTITUCION DE USUFRUCTO",
+        "exento": "NO",
+        "afectar": "TOT",
+        "numeroPlano": "04-98416-7",
+        "supPlano": "100.65",
+        "supTitulo": "100.65",
+        "pasillo": "NO"
+      }
+    ],
+    "escribanoSolicitante": {
+      "nombreEscribano": "GERALDINA LIS",
+      "apellidoEscribano": "PATRIZIO",
+      "matriculaEscribano": "1015",
+      "documento": "27298492",
+      "circunscripcion": "001"
+    },
+    "extranaJurisdiccion": "NO",
+    "datoNotificacion": {
+      "autorizante": "MEDINA SERGIO",
+      "descripcionNotificacion": "Certifico: Se remite copia de la Matrícula N°    39059  de Folio Real, donde se detalla dominio y estado jurídico del inmueble y que a nombre   de ODORICO DIEGO ARIEL y HUGO FINOCHIO,  NO se registran inhibiciones dentro de la 1ra, 3ra y 4ta Circunscripción Judicial.-\r\n\r\nSe hace constar que el presente inmueble actualmente se encuentra inscripto en la matrícula SIRC   400039059.-  \r\n\r\nIMPORTANTE: la matrícula SIRC, de la que se adjunta copia, es una continuación de la inscripción antecedente (tomo o matrícula). En consecuencia, en todos los casos, la situación jurídica del inmueble se conformará con el antecedente respectivo.-\r\n\r\nDe conformidad con el art. 150 de la ley 9003 se hace saber a Ud. que en contra del presente podrá interponer Recurso de Revocatoria ante el mismo órgano que dictó el acto, (art. 130 ley 8236) o recurso Jerárquico ante el órgano superior (art. 131), ambos  dentro del plazo de 15 días hábiles a contar desde el día siguiente a la notificación ficta del acto. La notificación ficta opera el día siguiente hábil a aquél en que se publicita en lista el acto (art. 129 ley 8236).\r\n\r\nEl presente certificado  Nº  3255719  para  COMPRA VENTA, DESAFECTACIÓN DE VIVIENDA, DONACIÓN y CONST. DE USUFRUCTO, se expide en Mendoza a 27 de  Julio de  2026. LG.-"
+    }
+  },
+  "inmueble": {
+    "circunscripcion": "1",
+    "tipoInmueble": "COMÚN",
+    "procedencia": "TOTALIDAD mat. nro 39059. ",
+    "descripcionInmueble": "Departamento: GUAYMALLEN. Domicilio: LAMADRID SUR número 218. S/T 100.65. S/P 100.65. Límites y medidas perimetrales: VER DOMINIO DE PROCEDENCIA. FRACCION A .",
+    "dominioMatricula": {
+      "matriculaSIRC": "400039059",
+      "departamento": "GUAYMALLEN",
+      "tieneBIS": "NO"
+    }
+  },
+  "noTitular": [
+    {
+      "nombre": "HUGO",
+      "apellido": "FINOCHIO",
+      "cuit": "20080321636"
+    }
+  ],
+  "titulares": [
+    {
+      "tipoPersona": "PF",
+      "tipoDoc": "Documento Nacional de Identidad",
+      "documento": "24598738",
+      "nombreCompleto": "ODORICO DIEGO ARIEL",
+      "personaFallecida": "NO",
+      "porcentaje": "100",
+      "columna": "A",
+      "asiento": "2",
+      "incluido": "SI",
+      "verificaInhibicion": "SI",
+      "transferencia": "0",
+      "cargaManual": "NO"
+    }
+  ]
+}

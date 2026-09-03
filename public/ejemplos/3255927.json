@@ -1,0 +1,76 @@
+{
+  "certificado": {
+    "numeroCertificado": "3255927",
+    "numeroTramite": "302717",
+    "fechaSolicitud": "2026-07-27",
+    "fechaVigencia": "2026-08-10",
+    "estadoTramite": "FIN",
+    "motivos": ["COMPRA VENTA"],
+    "motivosCargado": [
+      {
+        "motivo": "COMPRA VENTA",
+        "exento": "NO",
+        "afectar": "TOT",
+        "numeroPlano": "08447166",
+        "supPlano": "326.3",
+        "supTitulo": "326.3",
+        "pasillo": "NO"
+      }
+    ],
+    "escribanoSolicitante": {
+      "nombreEscribano": "MARIA LAURA",
+      "apellidoEscribano": "MARTINEZ",
+      "matriculaEscribano": "758",
+      "documento": "22043307",
+      "circunscripcion": "0",
+      "numeroRegistro": "660"
+    },
+    "extranaJurisdiccion": "NO",
+    "datoNotificacion": {
+      "autorizante": "FARRUGGIA ROMINA",
+      "descripcionNotificacion": "CERTIFICO: Que la Matrícula N° 396942 de Folio Real, donde se detalla dominio y estado jurídico del inmueble, se encuentra disponible en el Portal Web de la D.R.P. y que OCHOA MIRTA ESTER y TIVER S.A. no se encuentra/n inhibido/s para disponer de sus bienes dentro de la 1ra, 3ra y 4ta Circunscripción Judicial.-\r\n\r\nSe hace constar que el presente inmueble actualmente se encuentra inscripto en la matrícula SIRC 800396942 debiendo consignar esta nota de dominio en lo sucesivo.-\r\n\r\nIMPORTANTE: la matrícula SIRC es una continuación de la inscripción antecedente (tomo o matrícula). En consecuencia se conformará con el antecedente respectivo.-\r\n\r\nDe conformidad con el art. 150 de la Ley 9003 se hace saber a Ud. que en contra del presente podrá interponer Recurso de Revocatoria ante el mismo órgano que dictó el acto (art. 130 Ley 8236) o Recurso Jerárquico ante el Órgano Superior (art. 131), ambos dentro del plazo  de 15 días hábiles a contar desde el día siguiente a la notificación ficta del acto. La notificación ficta opera el día siguiente hábil a aquél en que se publicita en lista el acto (art. 129 Ley 8236).-\r\n\r\nEl presente certificado N° 3255927 para VENTA se expide en Mendoza a 27 de Julio de 2026.-"
+    }
+  },
+  "inmueble": {
+    "circunscripcion": "3",
+    "tipoInmueble": "COMÚN",
+    "procedencia": "TOTALIDAD mat. nro 396942\n",
+    "descripcionInmueble": "Departamento: SAN MARTIN. Domicilio: BUENOS AIRES calle entre BOLAÑOS Y BREVER. S/T 326.3. S/P 326.3. plano nro 34300. Límites y medidas perimetrales: Ver Dominio de Procedencia.",
+    "dominioMatricula": {
+      "matriculaSIRC": "800396942",
+      "departamento": "SAN MARTIN",
+      "tieneBIS": "NO"
+    }
+  },
+  "noTitular": [],
+  "titulares": [
+    {
+      "tipoPersona": "PF",
+      "tipoDoc": "Documento Nacional de Identidad",
+      "documento": "4831072",
+      "nombreCompleto": "OCHOA MIRTA ESTER",
+      "personaFallecida": "NO",
+      "porcentaje": "50",
+      "columna": "A",
+      "asiento": "2",
+      "incluido": "SI",
+      "verificaInhibicion": "SI",
+      "transferencia": "50",
+      "cargaManual": "NO"
+    },
+    {
+      "tipoPersona": "PJ",
+      "tipoDoc": "CUIT",
+      "documento": "30709586013",
+      "nombreCompleto": "TIVER S.A.",
+      "personaFallecida": "NO",
+      "porcentaje": "50",
+      "columna": "A",
+      "asiento": "2",
+      "incluido": "SI",
+      "verificaInhibicion": "SI",
+      "transferencia": "50",
+      "cargaManual": "NO"
+    }
+  ]
+}

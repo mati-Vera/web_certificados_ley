@@ -1,5 +1,6 @@
 [
-  { "numero": "123456", "etiqueta": "Vigente — matrícula SIRC" },
-  { "numero": "789012", "etiqueta": "Vencido — tomo/foja, con no titular" },
-  { "numero": "555555", "etiqueta": "Datos mínimos (varios campos sin cargar)" }
+  { "numero": "3198665", "etiqueta": "Vigente — propiedad horizontal (SIRC), 1 titular PJ" },
+  { "numero": "3255435", "etiqueta": "Finalizado — común, titular con inhibiciones" },
+  { "numero": "3255719", "etiqueta": "Finalizado — múltiples motivos, con no titular" },
+  { "numero": "3255927", "etiqueta": "Finalizado — común, cotitularidad PF/PJ" }
 ]

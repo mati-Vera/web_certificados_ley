@@ -1,0 +1,62 @@
+{
+  "certificado": {
+    "numeroCertificado": "3255435",
+    "numeroTramite": "302592",
+    "fechaSolicitud": "2026-07-27",
+    "fechaVigencia": "2026-08-10",
+    "estadoTramite": "FIN",
+    "motivos": ["COMPRA VENTA"],
+    "motivosCargado": [
+      {
+        "motivo": "COMPRA VENTA",
+        "exento": "NO",
+        "afectar": "TOT",
+        "numeroPlano": "10217831",
+        "supPlano": "2798.13",
+        "supTitulo": "2814.57",
+        "pasillo": "NO",
+        "observaciones": "venta fraccion 1 "
+      }
+    ],
+    "escribanoSolicitante": {
+      "nombreEscribano": "GUADALUPE",
+      "apellidoEscribano": "FERNANDEZ PASCUAL",
+      "matriculaEscribano": "1610",
+      "documento": "30841991",
+      "circunscripcion": "003",
+      "numeroRegistro": "115"
+    },
+    "extranaJurisdiccion": "NO",
+    "datoNotificacion": {
+      "autorizante": "FARRUGGIA ROMINA",
+      "descripcionNotificacion": "CERTIFICO: Que el inmueble detallado se encuentra inscripto al asiento N° 22497, Fs. 974 del T° 51 \"D\" de RIVADAVIA, continuando en matrícula SIRC N° 1000507747 (la que se encuentra disponible en el portal web de la D.R.P.) a nombre de PALMA, JORGE CARLOS y no reconoce gravámenes en tomo.\r\n\r\nSe informa que PALMA, JORGE CARLOS se encuentra/n inhibido/s para disponer de sus bienes dentro de la 1ra, 3ra y 4ta Circunscripción Judicial, según el siguiente detalle:\r\n\r\nPERSONA:\r\n               PALMA, JORGE CARLOS con Documento tipo (DNI) N° 31563002\r\nDETALLE INHIBICIÓN:\r\n               N° ENTRADA: 3164759\r\n               F. INSC: 29/04/2026\r\n               F. VTO: 29/04/2031\r\n               MOTIVO: INHIBICION COMUN GENERAL\r\n               ESTADO : NORMAL\r\n               TOMO: 4397 FOJA: 64 C: 1\r\n                N° EXPEDIENTE: 1326666  CARATULA: DPTO. GRAL DE IRRIGACION CPALMA JORGE P/APREMMIO\r\n               JUZGADO: SAN MARTIN JUZGADO TRIBUTARIO TERCERA Circ. PODER JUDICIAL DE MENDOZA\r\n\r\nPERSONA:\r\n               PALMA, JORGE CARLOS con Documento tipo (DNI) N° 31563002\r\nDETALLE INHIBICIÓN:\r\n               N° ENTRADA: 2834624\r\n               F. INSC: 26/09/2025\r\n               F. VTO: 26/09/2030\r\n               MOTIVO: INHIBICION COMUN GENERAL\r\n               ESTADO : NORMAL\r\n               TOMO: 4197 FOJA: 141 C: 1\r\n                N° EXPEDIENTE: 1312686  CARATULA: ADMINISTRACION TRIBUTARIA MENDOZA (ATM) C/ PALMA P /AP\r\n               JUZGADO: SAN MARTIN JUZGADO TRIBUTARIO TERCERA Circ. PODER JUDICIAL DE MENDOZA\r\n\r\nPERSONA:\r\n               PALMA, JORGE CARLOS con Documento tipo (DNI) N° 31563002\r\nDETALLE INHIBICIÓN:\r\n               N° ENTRADA: 2476811\r\n               F. INSC: 02/11/2023\r\n               F. VTO: 02/11/2028\r\n               MOTIVO: INHIBICION COMUN GENERAL\r\n               ESTADO : NORMAL\r\n               TOMO: 103 FOJA: 44 LETRA: TER C: 1\r\n                N° EXPEDIENTE: 1266922  CARATULA: DGI C/ PALMA JORGE CARLOS P/AP\r\n               JUZGADO: SAN MARTIN JUZGADO TRIBUTARIO TERCERA Circ. PODER JUDICIAL DE MENDOZA\r\n\r\nPERSONA:\r\n               PALMA, JORGE CARLOS con Documento tipo (DNI) N° 31563002\r\nDETALLE INHIBICIÓN:\r\n               N° ENTRADA: 2854102\r\n               F. INSC: 08/10/2025\r\n               F. VTO: 08/10/2030\r\n               MOTIVO: INHIBICION COMUN GENERAL\r\n               ESTADO : NORMAL\r\n               TOMO: 137 FOJA: 138 LETRA: TER C: 1\r\n                N° EXPEDIENTE: 1317648  CARATULA: DGI C/ PALMA JORGE CARLOS P/ APREMIO\r\n               JUZGADO: SAN MARTIN JUZGADO TRIBUTARIO TERCERA Circ. PODER JUDICIAL DE MENDOZA\r\n\r\nIMPORTANTE: la matrícula SIRC es una continuación de la inscripción antecedente (tomo o matrícula). En consecuencia se conformará con el antecedente respectivo.-\r\n\r\nDe conformidad con el art. 150 de la Ley 9003 se hace saber a Ud. que en contra del presente podrá interponer Recurso de Revocatoria ante el mismo órgano que dictó el acto (art. 130 Ley 8236) o Recurso Jerárquico ante el Órgano Superior (art. 131), ambos dentro del plazo  de 15 días hábiles a contar desde el día siguiente a la notificación ficta del acto. La notificación ficta opera el día siguiente hábil a aquél en que se publicita en lista el acto (art. 129 Ley 8236).-\r\n\r\nEl presente certificado N° 3255435 para VENTA FRACCION 1 - SUP  2.814,57m2 - PLANO 10-217831 se expide en Mendoza a 27 de Julio  de 2026.-"
+    }
+  },
+  "inmueble": {
+    "circunscripcion": "3",
+    "tipoInmueble": "COMÚN",
+    "procedencia": "TOTALIDAD inscripción 22497 nro 51, foja 974 del tomo 'D' de RIVADAVIA. ",
+    "descripcionInmueble": "Departamento: RIVADAVIA. S/T 29506.71. S/P 29147.76. plano nro 10881. Límites y medidas perimetrales: Ver Dominio de Procedencia.",
+    "dominioMatricula": {
+      "matriculaSIRC": "1000507747",
+      "departamento": "RIVADAVIA",
+      "tieneBIS": "NO"
+    }
+  },
+  "noTitular": [],
+  "titulares": [
+    {
+      "tipoPersona": "PF",
+      "tipoDoc": "Documento Nacional de Identidad",
+      "documento": "31563002",
+      "nombreCompleto": "PALMA JORGE CARLOS",
+      "personaFallecida": "NO",
+      "porcentaje": "100",
+      "columna": "A",
+      "asiento": "1",
+      "incluido": "SI",
+      "verificaInhibicion": "SI",
+      "cargaManual": "SI"
+    }
+  ]
+}
